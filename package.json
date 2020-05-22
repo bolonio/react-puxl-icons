@@ -1,0 +1,78 @@
+{
+  "name": "react-puxl-icons",
+  "version": "1.0.0",
+  "description": "A react icons library based on the collection of accessible icons from Puxl framework",
+  "author": "Adrián Bolonio <bolonio85@gmail.com>",
+  "contributors": [
+    "Adrián Bolonio <bolonio85@gmail.com>"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bolonio/react-puxl-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bolonio/react-puxl-icons/issues"
+  },
+  "homepage": "https://github.com/bolonio/react-puxl-icons#readme",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "generate:icons": "svgr --icon --typescript --svgo-config ./scripts/svgoConfig.json -d ./src ./resources/icons"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 2",
+    "react-dom": ">= 16.8.0 < 2"
+  },
+  "devDependencies": {
+    "@svgr/babel-plugin-remove-jsx-attribute": "^5.4.0",
+    "@svgr/cli": "^5.4.0",
+    "@svgr/core": "^5.4.0",
+    "@svgr/plugin-svgo": "^5.4.0",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.10.5",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "typescript",
+    "npm",
+    "a11y",
+    "PUXL",
+    "accessibility",
+    "icons",
+    "puxl-icons",
+    "open-source",
+    "react-icons",
+    "web-accessibility"
+  ],
+  "tags": [
+    "react",
+    "react-component",
+    "typescript",
+    "npm",
+    "a11y",
+    "PUXL",
+    "accessibility",
+    "icons",
+    "puxl-icons",
+    "open-source",
+    "react-icons",
+    "web-accessibility"
+  ]
+}
